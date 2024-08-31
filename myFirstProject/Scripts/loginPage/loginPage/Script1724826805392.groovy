@@ -27,9 +27,9 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/loginPage/orangeHrm
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/loginPage/loginHeader'), 5)
 
-WebUI.sendKeys(findTestObject('Object Repository/loginPage/usernameTextBox'), GlobalVariable.userName)
+WebUI.sendKeys(findTestObject('Object Repository/loginPage/usernameTextBox'), "Admin")
 
-WebUI.sendKeys(findTestObject('Object Repository/loginPage/passwordTextBox'), GlobalVariable.password)
+WebUI.sendKeys(findTestObject('Object Repository/loginPage/passwordTextBox'), "admin123")
 
 WebUI.click(findTestObject('Object Repository/loginPage/loginButton'))
 

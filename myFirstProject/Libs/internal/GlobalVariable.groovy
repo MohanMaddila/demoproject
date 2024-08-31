@@ -14,16 +14,6 @@ public class GlobalVariable {
      */
     public static Object URL
      
-    /**
-     * <p></p>
-     */
-    public static Object userName
-     
-    /**
-     * <p></p>
-     */
-    public static Object password
-     
 
     static {
         try {
@@ -32,8 +22,6 @@ public class GlobalVariable {
             selectedVariables += TestCaseMain.getParsedValues(RunConfiguration.getOverridingParameters(), selectedVariables)
     
             URL = selectedVariables['URL']
-            userName = selectedVariables['userName']
-            password = selectedVariables['password']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

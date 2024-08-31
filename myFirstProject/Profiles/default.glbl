@@ -9,14 +9,4 @@
       <initValue>'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'</initValue>
       <name>URL</name>
    </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'Admin'</initValue>
-      <name>userName</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'admin123'</initValue>
-      <name>password</name>
-   </GlobalVariableEntity>
 </GlobalVariableEntities>
